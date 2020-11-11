@@ -1,0 +1,258 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.menu-principal {
+	width: 100%;
+	background-color: #111111;
+	height: 60px;
+}
+
+main, .content {
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+.logo {
+	float: left;
+	padding: 9px;
+	width: 50%;
+}
+
+.redes-sociais {
+	padding: 15px;
+	width: 5%;
+	float: right;
+}
+
+.header-2 {
+	background-color: #007FFF;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 3px solid #0058B3;
+	border-top: 3px solid #0058B3;
+	padding: 0px;
+}
+
+.menu ul li {
+  display: inline-block;
+  color: #000000;	
+  margin-left: 40px;
+  height:32px;
+}
+
+.menu ul li:hover{
+	border-bottom: 2px solid #ffffff;
+}
+
+.menu ul li a:hover {
+	color:#0058B3;
+}
+
+.menu ul li a {
+  display: inline-block;
+  color: #ffffff;	
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  text-transform: uppercase;
+  font-weight: bold
+
+}
+
+.col-100{
+	width: 100%;
+	float: left;
+	background-position: absolute;
+  overflow: hidden;
+}
+
+button.slick-prev{
+	width: 40px;
+    border: none;
+    font-size: 0px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url('../img/prev.png');
+    z-index: 9;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    cursor: pointer;
+}
+
+button.slick-next{
+	width: 40px;
+    border: none;
+    font-size: 0px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url('../img/next.png');
+    z-index: 9;
+    position: absolute;
+    top: 60%;
+    right:15%;
+    cursor: pointer;
+}
+
+.slick-list{
+	width: 100%!important;
+}
+
+.slick-initialized{
+	overflow: hidden;
+}
+
+.slick-dots li button{
+     font-size: 0px;
+     border: 5px solid #ffffff;
+     width: 26px;
+     height: 26px;
+     background: transparent;
+     border-radius: 50%;
+     cursor: pointer;
+}
+
+.slick-dots li{
+	display: inline-block;
+	padding-left: 15px;
+    
+}
+
+.slick-dots{
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+	left: 22%;
+    top: 800px;
+    left: 44%;
+}
+
+li.slick-active button{
+      background: #007FFF;
+}
+
+.texto-destaque p {
+  color: #9a9a9a;
+  font-size: 15px;
+  
+}
+
+.texto-destaque h1 {
+color: #818181;
+font-size: 30px;
+text-transform: uppercase;
+
+}
+
+.texto-destaque strong {
+color: #646464;
+
+}
+
+.texto-destaque {
+  z-index: 9;
+  text-align: center;
+
+}
+
+.texto-destaque p {
+  text-align: center;
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+    }
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 325px;
+    height: auto;
+    
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+   
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+    
+}
+
+.meio {
+  margin-left: 45px
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+.prontuario{
+    padding: 43px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label{
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}

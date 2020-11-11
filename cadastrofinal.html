@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Bem vindo! </title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="./css/cadastrofinal.css" />
+  <link rel="shortcut icon" href="./img/favicon.png"/>
+</head>
+<body style="background-color:#0058B3;">
+
+	 <main>
+  <header class="menu-principal">
+  	<div class="header-1">
+	  <div class="logo">
+		<img src="./img/aniger.png">
+	  </div>
+	    <div class="redes-sociais">
+		   	<a href="https://https://www.instagram.com/tcc.petlife">
+		   		<img src="./img/instagram.png">
+		    </a>
+	    </div>
+	</div>
+  </main>
+  </header>
+  <main class ="menu-urls">
+  	<div class="header-2">
+  		<div class="menu">
+  			<ul>
+  				<li><a href="index.html">Home</a></li>
+  				<li><a href="cadastro1final.html">Cadastro/Login</a></li>
+  				<li><a href="mapa.html">Mapa</a></li>
+  				<li><a href="">Prontuário</a></li>
+  			</ul>
+  		</div>
+  	</div>
+  </main>
+<br>
+<br>
+<div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+    
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="email_login">Seu e-mail</label>
+            <input name="email" required="required" type="email" placeholder="seuemail@gmail.com"/>
+          </p>
+          
+          <p> 
+            <label for="senha_login">Sua senha</label>
+            <input name="senha" required="required" type="password" placeholder="1234" /> 
+          </p>
+          
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me conectado</label>
+          </p>
+          
+          <p> 
+            <input type="submit" value="Fazer login" /> 
+          </p>
+          
+          <p class="link">
+            Ainda não tem conta?
+            <a href="#paracadastro">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <form method="post" action="processa.php"> 
+          <h1>Cadastro</h1> 
+          
+          <p> 
+            <label for="nome_cad">Seu nome</label>
+            <input name="nome" required="required" type="text" placeholder="Luis Augusto" />
+          </p>
+          
+          <p> 
+            <label for="email_cad">Seu e-mail</label>
+            <input name="email" required="required" type="email" placeholder="seuemail@gmail.com"/> 
+          </p>
+          
+          <p> 
+            <label for="senha_cad">Sua senha</label>
+            <input name="senha" required="required" type="password" placeholder="1234"/>
+          </p>
+          
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+          
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Ir para Login </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>
